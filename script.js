@@ -16,7 +16,7 @@ function draw() {
 
     }
     pointArray.forEach(point => 
-      ctx.fillRect(point.x, point.y, 10, 10));
+      ctx.fillRect(point.x, point.y, 100, 10));
 
 
     
