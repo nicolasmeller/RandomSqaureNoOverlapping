@@ -3,7 +3,7 @@ var squares = [];
 function setup(){
   createCanvas(600,600);
   
-  for (let i = 0; i < 200; i++) {
+  while(squares.length < 500) {
       var square = {
       x: Math.floor(Math.random() * 590),
       y: Math.floor(Math.random() * 590),
